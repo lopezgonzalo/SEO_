@@ -1,0 +1,27 @@
+//header
+header{
+    display: flex;
+    
+    @if $he == 1{
+        background-color: $color1;
+    }   @else if $he == 2{
+        background-color: $color2;
+    }   @else if $he == 3{
+        background-color: $color3;
+    }
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+            padding: 50px 0px 00px 00px;
+            li{
+                display: flex;
+                padding-right: 10px;
+                a{
+                    color: $color2;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

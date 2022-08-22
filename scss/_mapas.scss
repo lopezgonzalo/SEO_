@@ -1,0 +1,11 @@
+$redes:(
+    twitter: rgb(0, 201, 252),
+    facebook: rgb(12, 12, 245),
+    instagram: rgb(202, 8, 121),
+);
+
+@each $red, $color in $redes{
+    .red-#{$red}{
+        color: $color;
+    }    
+}
